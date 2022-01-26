@@ -1,0 +1,47 @@
+[
+    {
+        "name": "drink01",
+        "price": 1000,
+        "amount": 10
+    },
+    {
+        "name": "drink02",
+        "price": 2000,
+        "amount": 10
+    },
+    {
+        "name": "drink03",
+        "price": 3000,
+        "amount": 10
+    },
+    {
+        "name": "drink04",
+        "price": 4000,
+        "amount": 10
+    },
+    {
+        "name": "drink05",
+        "price": 5000,
+        "amount": 10
+    },
+    {
+        "name": "drink06",
+        "price": 6000,
+        "amount": 10
+    },
+    {
+        "name": "drink07",
+        "price": 7000,
+        "amount": 10
+    },
+    {
+        "name": "drink08",
+        "price": 8000,
+        "amount": 10
+    },
+    {
+        "name": "drink09",
+        "price": 9000,
+        "amount": 10
+    }
+]

@@ -1,0 +1,21 @@
+h1.vm-h1 {
+    text-align: center;
+}
+
+table.vm-table {
+    width: 100%;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+th.vm-th {
+    background-color: lightgray;
+}
+
+th.vm-th,
+td.vm-td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+}
