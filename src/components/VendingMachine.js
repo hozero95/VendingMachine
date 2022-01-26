@@ -383,7 +383,9 @@ export default class VendingMachine extends Component {
     /* SexxionStorage 로드 함수 */
     loadSessionStorage() {
         if (sessionStorage.getItem(this.$target.dataset.component) !== null) {
-            this.setState(JSON.parse(sessionStorage.getItem(this.$target.dataset.component)));
+            if (JSON.parse(sessionStorage.getItem(this.$target.dataset.component)).productList.length > 0) {
+                this.setState(JSON.parse(sessionStorage.getItem(this.$target.dataset.component)));
+            }
         }
     };
 }

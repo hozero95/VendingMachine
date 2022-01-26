@@ -19,9 +19,9 @@ export default class App extends Component {
         const $vendingMachine = this.$target.querySelector('[data-component="vendingMachine"]');
         const $vendingMachine2 = this.$target.querySelector('[data-component="vendingMachine2"]');
 
-        new VendingMachine($vendingMachine);
-        // createVendingMachine($vendingMachine);
-        // createVendingMachine($vendingMachine2);
+        // new VendingMachine($vendingMachine);
+        createVendingMachine($vendingMachine);
+        createVendingMachine($vendingMachine2);
     };
 
     /* 자판기 컴포넌트 및 데이터 삽입 함수 */
